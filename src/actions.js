@@ -6,7 +6,6 @@ export const REMOVE_COMMENT = 'REMOVE_COMMENT';
 export const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
 export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
-
 export function addComment(text) {
 	return {
 		type: ADD_COMMENT,
@@ -43,5 +42,3 @@ export function thumbDownComment(commentId) {
 		id: commentId
 	}
 }
-
-
